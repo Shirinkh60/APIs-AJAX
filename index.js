@@ -1,6 +1,6 @@
 $( document ).ready(function(){
-    displayGifButtons();
-});
+    
+
     // An array of actions, new actions will be pushed into this array;
     var actions = ["Dancing", "Jogging", "Falling", "Reading", "Pushing", "Swimming", "Eating", "Skipping", "Crying", "Winking","Beyoncing", "Strolling", "Hopping"];
     // Creating Functions & Methods
@@ -78,6 +78,7 @@ $( document ).ready(function(){
     }
     // Calling Functions & Methods
      // displays list of actions already created
+     displayGifButtons();
     addNewButton();
     removeLastButton();
     // Document Event Listeners
@@ -92,4 +93,4 @@ $( document ).ready(function(){
             $(this).attr('data-state', 'still');
         }
     });
-    
+});
